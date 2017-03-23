@@ -8,15 +8,16 @@ package bhaskara;
 import java.util.Scanner;
 
 public class Bhaskara {
-
+// programa de bhaskara as avessas
+    
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Insira o valor de x1: ");
-        double x1 = console.nextDouble();
+        double x1 = Double.parseDouble(console.nextLine());
         System.out.println("Insira o valor de x2: ");
-        double x2 = console.nextDouble();
+        double x2 = Double.parseDouble(console.nextLine());
         System.out.println("Insira o valor de C: ");
-        double c = console.nextDouble();
+        double c = Double.parseDouble(console.nextLine());
         double s = x1 + x2;
         double p = x1 * x2;
         double a = c/p;
